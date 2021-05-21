@@ -14,10 +14,19 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -b",
-    "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo"
+    "start": "webpack serve",
+    "build": "yarn compile && webpack --env production",
+    "clean": "rm -rf ./dist && rm -rf ./build && rm tsconfig.tsbuildinfo",
+    "watch": "tsc -b -w --preserveWatchOutput",
+    "compile": "tsc -b"
   },
   "dependencies": {
     "@monorepo/diceroll": "*"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
