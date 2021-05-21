@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es2015",
+    "lib": [ "dom", "es2015"]
+  },
+  "references": [
+    { "path":  "../diceroll" }
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
