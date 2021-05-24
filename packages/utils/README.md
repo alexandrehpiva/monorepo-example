@@ -1,11 +1,11 @@
-# `diceroll`
+# `utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const diceroll = require('diceroll');
+const utils = require('utils');
 
 // TODO: DEMONSTRATE API
 ```

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { roll } from '@monorepo/diceroll';
+import { roll } from '@monorepo/utils';
 import { Button } from '@monorepo/ui-components';
 
 function App() {

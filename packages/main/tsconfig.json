@@ -22,7 +22,7 @@
     "noEmit": true
   },
   "references": [
-    { "path": "../diceroll" },
+    { "path": "../utils" },
     { "path": "../ui-components" }
   ],
   "include": [

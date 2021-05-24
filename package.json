@@ -12,7 +12,7 @@
     "start:main": "yarn watch & yarn lerna run --scope=@monorepo/main --stream start",
     "build:main": "yarn lerna run --scope=@monorepo/main --stream build",
     "test:main": "cd packages/main && yarn test --all",
-    "test:diceroll": "cd packages/diceroll && yarn test --all"
+    "test:utils": "cd packages/utils && yarn test --all"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.24.0",
