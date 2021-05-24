@@ -1,12 +1,17 @@
 import React from 'react';
 import './App.css';
-import { roll } from '@monorepo/utils';
+import { concat } from '@monorepo/utils';
 import { Button } from '@monorepo/ui-components';
 
 function App() {
   return (
     <div className="App">
-      <Button name="Test Button" onClick={() => roll('1d20')} />
+      <Button
+        name="Test Button"
+        onClick={() => {
+          console.log(concat('Hello', ' World!'));
+        }}
+      />
     </div>
   );
 }
