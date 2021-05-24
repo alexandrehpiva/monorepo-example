@@ -4,11 +4,9 @@ import { roll } from '@monorepo/diceroll';
 import { Button } from '@monorepo/ui-components';
 
 function App() {
-  console.log(roll('1d20'));
-
   return (
     <div className="App">
-      <Button name="Teste" />
+      <Button name="Test Button" onClick={() => roll('1d20')} />
     </div>
   );
 }

@@ -252,7 +252,7 @@
         "affectsGlobalScope": false
       },
       "./lib/index.ts": {
-        "version": "8a37e5e7f7271f1fcfc4046c86347b811604aa43d0eede1827c8f8db9ad9aef4",
+        "version": "3b2a57516bf5d15dc8a826312a2d28b6823f599f2688c3b01bb16759f330de07",
         "signature": "d2ec7466be9deca6a5d61c389bbd1193e57cc3fcc2b0551a16946e974a893e81",
         "affectsGlobalScope": false
       },
