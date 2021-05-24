@@ -5,11 +5,19 @@
     "packages/*"
   ],
   "scripts": {
+    "install": "lerna bootstrap",
     "build": "lerna run build --stream",
-    "clean": "lerna run clean --parallel",
-    "watch": "tsc -b -w --preserveWatchOutput"
+    "clean": "rm -rf node_modules && rm -f yarn.lock && lerna run clean --parallel",
+    "watch": "tsc -b -w --preserveWatchOutput",
+    "start:main": "lerna run start --scope=@monorepo/main"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.0"
   }
 }
