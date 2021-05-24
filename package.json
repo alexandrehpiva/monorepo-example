@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "prebuild": "lerna bootstrap",
-    "build": "lerna run build --stream",
+    "preinstall": "lerna bootstrap",
+    "install": "lerna run build --stream",
     "watch": "lerna run watch --parallel",
     "clean": "rm -rf node_modules && rm -f yarn.lock && lerna run clean --parallel",
     "start:main": "yarn watch & yarn lerna run --scope=@monorepo/main --stream start",
