@@ -2,6 +2,8 @@
   "name": "@monorepo/ui-components",
   "version": "0.0.0",
   "description": "UI Components",
+  "private": true,
+  "license": "ISC",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -14,13 +16,20 @@
     "typings"
   ],
   "scripts": {
-    "test": "yarn build && jest",
     "build": "tsc -b",
     "watch": "tsc -b -w --preserveWatchOutput",
+    "test": "yarn build && jest",
     "clean": "rm -rf ./dist && rm -f tsconfig.tsbuildinfo && rm -rf node_modules"
   },
   "peerDependencies": {
+    "@babel/core": ">=7.11.0",
+    "@babel/plugin-transform-react-jsx": ">=7.10.0",
+    "@babel/preset-env": ">=7.11.0",
+    "@babel/preset-react": ">=7.10.0",
+    "babel-loader": ">=8.1.0",
+    "css-loader": ">=4.2.0",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react-dom": ">=16.8.0",
+    "style-loader": ">=1.2.0"
   }
 }

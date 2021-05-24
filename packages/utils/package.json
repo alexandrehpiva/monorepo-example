@@ -14,9 +14,9 @@
     "dist"
   ],
   "scripts": {
-    "test": "yarn build && jest",
     "build": "tsc -b",
-    "clean": "rm -rf ./dist && rm -f tsconfig.tsbuildinfo && rm -rf node_modules",
-    "watch": "tsc -b -w --preserveWatchOutput"
+    "watch": "tsc -b -w --preserveWatchOutput",
+    "test": "yarn build && jest",
+    "clean": "rm -rf ./dist && rm -f tsconfig.tsbuildinfo && rm -rf node_modules"
   }
 }

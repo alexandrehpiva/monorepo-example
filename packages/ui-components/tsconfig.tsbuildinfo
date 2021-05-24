@@ -246,9 +246,14 @@
         "signature": "881ea8e225320dd9b436999d82998e1d7699e512e0597f0015e5abd59d95974a",
         "affectsGlobalScope": true
       },
+      "../../node_modules/@types/react/jsx-runtime.d.ts": {
+        "version": "af7fd2870746deed40e130fc0a3966de74e8f52a97ec114d0fbb35876ab05ca9",
+        "signature": "af7fd2870746deed40e130fc0a3966de74e8f52a97ec114d0fbb35876ab05ca9",
+        "affectsGlobalScope": false
+      },
       "./lib/Button.tsx": {
-        "version": "6f87b2a84057b1dcf7dcf4c0ca7eba188d83ae9a8f08196721d1fe63a3c69874",
-        "signature": "39df60ec938fa351e63be9bc0be9b0d878d0883278f97dceba580bd43d44492f",
+        "version": "a1e08ed2d415869979cef82850da6bf2502affa6cc7d5178b82b5ac99d9d5e7f",
+        "signature": "7e0a0098fb0182f121553e4a210cca3530d7cbbd57b8a88e632965eea5287e2f",
         "affectsGlobalScope": false
       },
       "./lib/index.ts": {
@@ -837,7 +842,7 @@
       "noFallthroughCasesInSwitch": true,
       "resolveJsonModule": true,
       "isolatedModules": true,
-      "jsx": 2,
+      "jsx": 4,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1092,6 +1097,9 @@
         "../../node_modules/@types/scheduler/tracing.d.ts",
         "../../node_modules/csstype/index.d.ts"
       ],
+      "../../node_modules/@types/react/jsx-runtime.d.ts": [
+        "../../node_modules/@types/react/index.d.ts"
+      ],
       "../../node_modules/@types/resolve/index.d.ts": [
         "../../node_modules/@types/node/index.d.ts"
       ],
@@ -1204,9 +1212,11 @@
         "../../node_modules/pretty-format/build/types.d.ts"
       ],
       "./lib/Button.tsx": [
-        "../../node_modules/@types/react/index.d.ts"
+        "../../node_modules/@types/react/index.d.ts",
+        "../../node_modules/@types/react/jsx-runtime.d.ts"
       ],
       "./lib/index.ts": [
+        "../../node_modules/@types/react/jsx-runtime.d.ts",
         "./lib/Button.tsx"
       ]
     },
@@ -1462,6 +1472,9 @@
         "../../node_modules/@types/scheduler/tracing.d.ts",
         "../../node_modules/csstype/index.d.ts"
       ],
+      "../../node_modules/@types/react/jsx-runtime.d.ts": [
+        "../../node_modules/@types/react/index.d.ts"
+      ],
       "../../node_modules/@types/resolve/index.d.ts": [
         "../../node_modules/@types/node/index.d.ts"
       ],
@@ -1663,6 +1676,7 @@
       "../../node_modules/@types/react-dom/index.d.ts",
       "../../node_modules/@types/react/global.d.ts",
       "../../node_modules/@types/react/index.d.ts",
+      "../../node_modules/@types/react/jsx-runtime.d.ts",
       "../../node_modules/@types/resolve/index.d.ts",
       "../../node_modules/@types/scheduler/index.d.ts",
       "../../node_modules/@types/scheduler/tracing.d.ts",
