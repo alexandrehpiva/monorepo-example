@@ -8,7 +8,7 @@
     "install": "lerna bootstrap",
     "build": "lerna run build --stream",
     "clean": "rm -rf node_modules && rm -f yarn.lock && lerna run clean --parallel",
-    "watch": "tsc -b -w --preserveWatchOutput",
+    "watch": "lerna run watch --parallel",
     "start:main": "lerna run start --scope=@monorepo/main"
   },
   "devDependencies": {
